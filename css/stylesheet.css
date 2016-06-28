@@ -29,6 +29,7 @@
 	height: 1rem;
 	color: black;
 	padding: .5rem;
+	opacity:.8;
 }
 
 .links:hover {
@@ -37,7 +38,7 @@
 }
 
 .introduction {
-	background: url(../img/forest.jpg) no-repeat center center;
+	background: url(../img/mac.jpg) no-repeat center center;
 	background-size: cover;
 	width: 100%;
 	height: 40.75rem;
@@ -62,7 +63,7 @@ a {
 	padding-bottom: 0;
 	margin-bottom: 0;
 	font-family: goudy old style;
-	font-size: 3em;
+	font-size: 3.5em;
 }
 
 .intro_h3 {
@@ -93,12 +94,12 @@ a {
 }
 
 .line_one {
-	margin-top: 4.5rem;
+	margin-top: 7rem;
 	min-width: 1150px;
 }
 
 .line_two {
-	margin-top: 5rem;
+	margin-top: 3rem;
 	margin-bottom: 10rem;
 	min-width: 1150px;
 }
@@ -111,17 +112,24 @@ a {
 	margin-right: 2.5%;
 	margin-left: 2.5%;
 	border-radius: 1rem;
-}
-
-#box_one {
 	background: url(../img/tiger.jpg) no-repeat center center;
 	background-size: cover;
 	opacity:.4;
 }
 
-#box_one:hover {
+.box:hover {
 	background-size: cover;
 	opacity: 1;
+	transform: scale(1.08, 1.08);
+ 	-moz-transform: scale(1.08, 1.08);
+	-ms-transform: scale(1.08, 1.08);
+	-webkit-transform: scale(1.08, 1.08);
+	-o-transform: scale(1.08, 1.08);
+}
+
+#box_one {
+	background: url(../img/karma.jpg) no-repeat center center;
+	background-size: cover;
 }
 
 .logo {
@@ -135,3 +143,80 @@ a {
 	opacity:1;
 }
 
+.work_h1 {
+	color: 	black;
+	margin-top: 8rem;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-family: goudy old style;
+	font-size: 3em;
+	letter-spacing: 3px;
+	opacity: .8;
+}
+
+.caption {
+	opacity: .8;
+	padding-top: 21.5rem;
+	font-family: goudy old style;
+	font-size: 1.1rem;
+	color: black;
+}
+
+#position_social {
+   	float: center;
+   	list-style-type: none;
+   	display: inline-block;
+   }
+
+ .social_icons {
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 0px;
+ 	width: 200px;
+ 	display: inline-block;
+ 	margin-top: 0px;
+ }
+
+ #twitter {
+ 	color: #55acee;
+ 	margin-top: 13px;
+ }
+
+  #facebook {
+ 	color: #3f729b;
+ 	margin-top: 13px;
+ }
+
+  #instagram {
+ 	color: #3f729b;
+ 	margin-top: 13px;
+ 	z-index: 9998;
+ 	opacity: 1;
+ }
+
+
+ .container {
+ 	border: 1px solid black;
+	width: 2.5rem;
+	height: 2.5rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	vertical-align: center;
+	cursor: pointer; 
+ }
+
+ .container:hover {
+ 	border: 1px solid black;
+ 	background-color: black;
+	width: 2.5rem;
+	height: 2.5rem;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	vertical-align: center;
+	cursor: pointer;
+	opacity: .8;
+}
